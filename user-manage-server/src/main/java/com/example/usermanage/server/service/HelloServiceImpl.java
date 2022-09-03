@@ -2,7 +2,7 @@ package com.example.usermanage.server.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.stereotype.Component;
-import com.example.usermanage.api.HelloService;
+import com.example.usermanage.api.service.HelloService;
 
 @Service(interfaceClass = HelloService.class)
 @Component
