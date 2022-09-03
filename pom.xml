@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>site.qipeng</groupId>
-    <artifactId>dubbo-parent</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>user-manage</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>dubbo-parent</name>
-    <description>dubbo-parent</description>
+    <name>user-manage-micro</name>
+    <description>user-manage-micro</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,9 +19,9 @@
     </parent>
 
     <modules>
-        <module>dubbo-api</module>
-        <module>dubbo-provider</module>
-        <module>dubbo-consumer</module>
+        <module>user-manage-api</module>
+        <module>user-manage-server</module>
+        <module>user-manage-gateway</module>
     </modules>
 
     <properties>

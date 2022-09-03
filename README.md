@@ -307,7 +307,7 @@ public interface HelloService {
    
    import com.alibaba.dubbo.config.annotation.Service;
    import org.springframework.stereotype.Component;
-   import site.qipeng.dubboapi.HelloService;
+   import HelloService;
    
    @Service(interfaceClass = HelloService.class)
    @Component
@@ -363,7 +363,7 @@ public interface HelloService {
    import org.springframework.web.bind.annotation.RequestMapping;
    import org.springframework.web.bind.annotation.RequestParam;
    import org.springframework.web.bind.annotation.RestController;
-   import site.qipeng.dubboapi.HelloService;
+   import HelloService;
    
    @RestController
    public class HelloController {
