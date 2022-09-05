@@ -23,7 +23,7 @@ public class UserController {
     @Reference
     private UserService userService;
 
-    @PostMapping("/register")
+    @RequestMapping("/register")
     public WebResult registerUser(UserRequest request) {
         try {
             // TODO param validate
@@ -36,7 +36,7 @@ public class UserController {
         }
     }
 
-    @PostMapping("/update")
+    @RequestMapping("/update")
     public WebResult updateUser(UserRequest request) {
         try {
             // TODO param validate

@@ -1,10 +1,12 @@
 package com.example.usermanage.gateway.param.user;
 
+import java.io.Serializable;
+
 /**
  * Author wangjinshuai
  * Date 2022/9/2 22:28
  **/
-public class UserRequest {
+public class UserRequest implements Serializable {
 
     /**
      * 用户id

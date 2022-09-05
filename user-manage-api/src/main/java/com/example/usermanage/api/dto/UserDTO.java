@@ -1,10 +1,12 @@
 package com.example.usermanage.api.dto;
 
+import java.io.Serializable;
+
 /**
  * Author wangjinshuai
  * Date 2022/9/2 17:58
  **/
-public class UserDTO {
+public class UserDTO implements Serializable {
 
     /**
      * 用户id

@@ -1,10 +1,12 @@
 package com.example.usermanage.api.entity;
 
+import java.io.Serializable;
+
 /**
  * Author wangjinshuai
  * Date 2022/9/2 10:32
  **/
-public class User {
+public class User implements Serializable {
 
     /**
      * 用户id
